@@ -1,0 +1,28 @@
+{
+  "name": "ohlc",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Austin Pickett",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "recompose": "^0.27.1",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.1.0",
+    "eslint-plugin-react": "^7.10.0",
+    "prettier": "^1.13.7"
+  }
+}
